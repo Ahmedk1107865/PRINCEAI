@@ -131,14 +131,14 @@ global.developer = 'https://wa.me/message' //contact
 //Sticker WM
 global.wm = process.env.BOT_NAME
 global.botname = process.env.BOT_NAME
-global.princebot = '🛡️CHUZZA🛡️'
+global.princebot = '🛡️CHAMD X AHMED🛡️'
 global.packname = process.env.PACK_NAME
-global.author = 'CHUZA ♥️' 
+global.author = 'CHAND X AHMED ♥️' 
 global.princeig = 'https://www.instagram.com' 
-global.princegp = 'https://chat.whatsapp.com/I8cEwyPyiwB961alRjB1Bb'
+global.princegp = 'https://whatsapp.com/channel/0029VaZrEGYIN9ih4PxcFQ33'
 global.menuvid = 'https://i.imgur.com/GFAAXqw.mp4'
 global.Princesc = 'https://github.com' 
-global.princeyt = 'https://youtube.com/'
+global.princeyt = 'https://www.youtube.com/@chandtricker/'
 global.Princelog = ''
 global.thumb = fs.readFileSync('./lib/source/Prince.png')
 //💌------------------------------------------💌
