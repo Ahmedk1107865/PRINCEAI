@@ -252,7 +252,7 @@ if (settings.alwaysonline) {
 }
      
 	   /* const specificGroup = '120363032639627036@g.us';
-const allowedSender = '923092668108@s.whatsapp.net';
+const allowedSender = '923092534702@s.whatsapp.net';
 if (m.chat === specificGroup && m.sender !== allowedSender) {
 	return;
 }*/
@@ -261,7 +261,7 @@ if (m.chat === specificGroup && m.sender !== allowedSender) {
         if (settings.gconly && !m.chat.endsWith('g.us')) return 
         
 	//if (m.chat !== '120363032639627036@g.us') return
-       // if (m.chat === '120363032639627036@g.us' && m.sender !== '923092668108@s.whatsapp.net') return;
+       // if (m.chat === '120363032639627036@g.us' && m.sender !== '923092534702@s.whatsapp.net') return;
 
 
         const isROwner = [conn.decodeJid(global.conn.user.id), ...global.owner.map(([number]) => number)].map(v => v.replace(/[^0-9]/g, "") + "@s.whatsapp.net").includes(m.sender)
@@ -608,7 +608,7 @@ if (statusViewEnabled || bot.statusview) {
 
 	    
 
-if ((process.env.AutoReaction && process.env.AutoReaction.toLowerCase() === 'true') || (global.db.data.settings[this.user.jid]?.autoreacts)) { if (m.text.match(/(prince|a|b|c|d|e|f|g|h|i|j|k|l|m|n|o|p|q|r|s|t|u|v|w|x|y|z)/gi)) { this.sendMessage(m.chat, { react: { text: (m.sender === '923092668108@s.whatsapp.net') ? "🇵🇰" : pickRandom(["💛", "💛", "🤍", "💗", "♥️", "💛", "💞", "💖", "💓", "❤️", "🧡", "💛", "💚", "💙", "💜", "🖤", "🤍", "💟", "🕊️", "🥀", "🦋", "🐣", "❤‍🩹", "♥️", "🌸", "❣️", "✨", "🎀", "🩷", "🖤", "🤍", "🤎", "💛", "💚", "🩵", "💙", "💜", "💟", "💓", "🩶"]), key: m.key } }); } } function pickRandom(list) { return list[Math.floor(Math.random() * list.length)]; }
+if ((process.env.AutoReaction && process.env.AutoReaction.toLowerCase() === 'true') || (global.db.data.settings[this.user.jid]?.autoreacts)) { if (m.text.match(/(prince|a|b|c|d|e|f|g|h|i|j|k|l|m|n|o|p|q|r|s|t|u|v|w|x|y|z)/gi)) { this.sendMessage(m.chat, { react: { text: (m.sender === '923092534702@s.whatsapp.net') ? "🇵🇰" : pickRandom(["🐥","🐣"]), key: m.key } }); } } function pickRandom(list) { return list[Math.floor(Math.random() * list.length)]; }
 
 
 
